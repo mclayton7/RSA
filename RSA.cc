@@ -51,14 +51,14 @@ bool FactorRho(const mpz_class& n, mpz_class& result)
 	}	
 }
 
-
+// Generate a Random Seed (Needs Work)
 void generateSeed()
 {
-	int randomData = open("/dev/random", O_RDONLY);
-	unsigned long int randSeed;
-	read(randomData, &randSeed, sizeof randSeed);
-	close(randomData);
-	r.seed(randSeed);
+	// int randomData = open("/dev/random", O_RDONLY);
+	// unsigned long int randSeed;
+	// read(randomData, &randSeed, sizeof randSeed);
+	// close(randomData);
+	// r.seed(randSeed);
 }
 
 
