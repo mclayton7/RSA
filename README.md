@@ -6,7 +6,7 @@ This is a simple RSA Implementation that demonstrates key generation as well as 
 Note: the generateSeedIO function has broken with Mavericks, so please don't use this for any real encryption. 
 
 To Run on OSX
-======
+-------------
 1. Using Homebrew, make sure you've installed the GNU Multiple Precision Library:
     brew install gmp
 
