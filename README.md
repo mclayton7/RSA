@@ -19,3 +19,18 @@ make
 ```  
 ./RSA
 ```
+
+To Run on Ubuntu (16.10)
+------------------------
+1. Using apt, make sure you've installed the GNU Multiple Precision Library:
+```
+apt install libgmp-dev
+```
+2. Then compile using G++:
+```    
+make
+```
+3. Then run:
+```  
+./RSA
+```
